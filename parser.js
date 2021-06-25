@@ -1,3 +1,7 @@
+// This is a VERY basic CSV parser with no error checking or anything and just WYSIWYG. It's meant to be paired width
+// something that uploads a CSV file and passes the File to this function. 
+// Intended just for happy path stuff
+
 function parseCSVData(file) {
   //typeof file
   file
